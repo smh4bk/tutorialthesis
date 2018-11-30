@@ -1,0 +1,13 @@
+Name of object
+Wavelength - which image was used for this analysis - used R for most images
+Major axis and minor axis - units in phy (pixels)
+PSF star and PSF Object - use IRAF imexam to determine values
+Pixel scale - from header of each image, specifically the image of the wavelength indicated in column 2
+Description - of object
+Redshifts of the objects - if no redshift is known, used 1 as value
+Kpc/" scale - from the header of each image 
+
+
+
+
+**Note: imexam not working properly for W1521, W1703. "Moffat fit did not converge"**
